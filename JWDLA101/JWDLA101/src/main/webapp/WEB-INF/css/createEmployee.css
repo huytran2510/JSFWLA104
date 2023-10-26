@@ -1,0 +1,73 @@
+.input{
+    width: 700px;
+    height: 25px;
+    border-radius: 4px #f1f1f1;
+}
+#address, #remark{
+    height: 100px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 690px;
+    height: 25px;
+}
+.input-date{
+    width: 550px;
+    height: 25px;
+    border-radius: 4px #f1f1f1;
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+span {
+    color: red;
+}
+.btn-action {
+    display: flex;
+    margin-top: 10px;
+}
+.btnBack {
+    background-color: #5bc0de;
+    color:#fff;
+    border: 2px solid #5bc0de ;
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+}
+.btnReset {
+    background-color: #f0ad4e;
+    border: 2px solid #f0ad4e;
+    color: #fff;
+    text-decoration: none;
+    width: 70px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.btnAdd {
+    background-color: #5cb85c;
+    border: 2px solid #5cb85c;
+    color: #fff;
+    width: 70px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.btnAdd:hover {
+    cursor: pointer;
+}
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.container-form {
+    margin-left: 300px;
+    position: relative;
+}

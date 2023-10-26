@@ -1,0 +1,99 @@
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    height: 15px;
+}
+table tr td:nth-child(2) {
+    width: 20%;
+}
+table tr td:nth-child(7) {
+    width: 100px;
+}
+.header-table{
+    background-color:#eeeeee ;
+}
+table {
+    width: 100%;
+}
+.form-list{
+    width: 850px;
+}
+.icon-cell {
+    width: 30px;
+    text-align: center;
+    border: 2px solid;
+    align-items: center;
+}
+.icon-svg {
+    max-width: 16px; /* Kích thước tối đa của SVG */
+    margin-top: 4px;
+}
+.input-cell {
+    border: 2px solid;
+    border-left: none;
+}
+.form-action {
+    display: flex;
+    /*align-items: flex-end;*/
+    margin-left: 430px;
+}
+.Search {
+    margin-left: 20px;
+    width: 70px;
+    height: 27px;
+    background-color: #5bc0de;
+    border: 2px solid #5bc0de;
+    border-radius: 2px;
+    color: #fff;
+}
+.form-search {
+    display: flex;
+}
+.container-boxList {
+    /*margin-top: 100px;*/
+    margin-left: 300px;
+    position: relative;
+}
+.icon-view , .icon-view a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-page {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 2px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.current-page {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 2px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+}
+
+.btn-page.prev,
+.btn-page.next {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-page:hover {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
